@@ -1,4 +1,3 @@
-// java code for getting output
 $(document).ready(function () {
   $("#greetingOutput").text("");
 
