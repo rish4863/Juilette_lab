@@ -1,0 +1,111 @@
+<html>
+<head>
+  <h3> Menu Bar</h3> 
+  <ul>
+    
+  <li><a href="https://codepen.io/rish4863/pen/gOKjooN">Home</a></li>
+  <li><a href="https://codepen.io/rish4863/pen/XWYYOdy">Bad  design</a></li>
+  <li><a href="https://codepen.io/rish4863/pen/zYaaeqy">Good web design</a></li>
+ </ul>
+  <h1> Fixed page</h1>
+<p> This is the fixed page. To fix the website I included more information to the form drop drown for the registration page. 
+  <div class="dropdown">
+  <button class="dropbtn">Registration links </button>
+  <div class="dropdown-content">
+    <a href="#">Registration form</a>
+    <a href="#">Fees payment</a>
+    <a href="#">Lodging registration </a>
+  </div>
+</div>  
+  
+ 
+ 
+    <h2> Enter your personal information.</h2>
+  <label for="fname">First name:</label>
+<input type="text" id="fname" name="fname"><br>
+  <h2> Enter your location</h2>
+  <label for "Location">Location:</label><input type="text" id= "Location" name="Location"></br>
+  <h2> Enter your Company</h2> 
+  <label for "Company">Company:</label><input type="text" id="Company" name="Company"></br> 
+
+
+  <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname"><br>
+    <label for "emailaddress"> Email address</label>
+    <input type = "text" id= "emailaddress" name= "emailaddress"><br><br>
+    <label  for "dateofbirth"> Date of Birth(mm/dd/yyyy)</label>
+    <input type ="text" id= "dateofbirth" name="dateofbirth">
+  <br><br>
+  <label for "cardnumber"> Credit Card Number</label>
+  <input type="password" id="cardnumber" name="cardnumber">
+  <br></br>
+ 
+ 
+     <div class="col-md-5 card">
+      <div class="card-body">
+        <h4 class="card-title">User Name. </h4>  
+    
+ <label for="noSpaces" class="form-label">User Name</label>
+        <input id="noSpaces" class="form-control" type="text" placeholder="Enter User Name (no spaces)" name="noSpaces">
+
+    
+    
+     <div class="mb-3 mt-3">
+    <p> Enter your password
+    <input type="password" id="password" name="password"><br />
+   <label  for "today"> Enter registeration date and time for our records</p> (mm/dd/yyyy)</label>
+   
+  <label for="datemin">Enter a date after November 1, 2022 :</label>
+ <input type="datetime-local" id="datetime"
+         name="datetime"> <br>
+    
+  
+     
+  
+        
+        
+  <p class="card-footer"></p>
+      </div>
+      <p></p>
+    </div>
+
+   
+    <div class="col-md-5 m-l-2 card">
+      <div class="card-body"> 
+        
+    
+  <button id="sendName">Go! </button>
+   <div id="greetingOutput"></div>
+ <div id="result"></div>  
+ <p>Please select your registration details :</p>
+    <div>
+    <input type="radio" name="registration" value="hotel" id="hotel"     required>
+  <label for="hotel">hotel</label>
+</div>
+<div>
+  <input type="radio" name="registration" value="conference" id="conference" required>
+  <label for="conference">conference</label>
+</div>
+<div>
+  <input type="radio" name="registration" value="hotel and conference" id="hotel and conference" required>
+  <label for="conference">hotel and conference</label>
+</div>
+<div>
+  </label><br>
+    <div>
+     <p> Submit to register for the conference and hotel 
+  <button id="btn">Show registration status</button>
+</p>
+<p id="demo"></p>
+                    
+    
+
+  </div> 
+</div> 
+  <!-- java script bootstrap 
+      ---> 
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="scripts/india.js"></script>
+    <script src="scripts/ajax.js"></script>       
